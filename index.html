@@ -2,42 +2,154 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mi Curriculum</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Elder Fidel Solano Rivera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            margin-top: 20px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            color: #333;
+        }
+
+        .content {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .content ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .content ul li {
+            margin: 5px 0;
+        }
+
+        .experience, .education {
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .contact-info a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<main>
-  <div class="resume">
-    <div class="container">
-      <div class="resume__block">
-        <h1 class="contact-info__header">Elder Fidel Solano Rivera</h1>
-        <h3 class="contact-info__sub-header">Consultor de Desarrollo</h3>
 
-        <div class="contact_info_container fh">
-          <div class="contact-info__block"></div>
-        
-          <div class="contact-info__block contact-info__block--center">
-            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
-          </div>
+<div class="container">
+    <!-- Encabezado -->
+    <header>
+        <h1>Elder Fidel Solano Rivera</h1>
+        <p>Soltero | 1104964034</p>
+    </header>
 
-          <div class="contact-info__block">
-<a href="" rel="author" class="contact-info__item">
-  <div class="contact-info__item-icon-wrapper">
-    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-      <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
-    </svg>
-  </div>
-  <span>Ecuador</span>
-</a>
+    <!-- Perfil -->
+    <section>
+        <h2 class="section-title">Perfil Profesional</h2>
+        <p>Desarrollador con experiencia en proyectos de desarrollo de software, especialmente en el área de soluciones tecnológicas. He trabajado en empresas como LojaSoft, Aqa Solutions y Business IT, contribuyendo al éxito de diversos proyectos.</p>
+    </section>
 
-</div>
+    <!-- Experiencia Laboral -->
+    <section class="experience">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="content">
+            <h3>LojaSoft</h3>
+            <p><strong>Fecha:</strong> Enero 2022 - Actualidad</p>
+            <p><strong>Cargo:</strong> Desarrollador de Software</p>
+            <ul>
+                <li>Desarrollo de aplicaciones web en tecnologías como HTML, CSS, JavaScript y PHP.</li>
+                <li>Colaboración en proyectos de integración de sistemas y optimización de bases de datos.</li>
+                <li>Gestión y mantenimiento de plataformas e-commerce y CRM.</li>
+            </ul>
+
+            <h3>Aqa Solutions</h3>
+            <p><strong>Fecha:</strong> Junio 2020 - Diciembre 2021</p>
+            <p><strong>Cargo:</strong> Desarrollador Front-End</p>
+            <ul>
+                <li>Desarrollo y diseño de interfaces de usuario (UI) para aplicaciones web y móviles.</li>
+                <li>Implementación de funcionalidades usando JavaScript y frameworks como React y Angular.</li>
+                <li>Trabajo en equipo con diseñadores y otros desarrolladores para asegurar una experiencia de usuario excepcional.</li>
+            </ul>
+
+            <h3>Business IT</h3>
+            <p><strong>Fecha:</strong> Enero 2019 - Mayo 2020</p>
+            <p><strong>Cargo:</strong> Desarrollador Web</p>
+            <ul>
+                <li>Creación de sitios web corporativos y plataformas de e-commerce.</li>
+                <li>Optimización de la velocidad de carga y mejoras en la accesibilidad web.</li>
+                <li>Implementación de soluciones basadas en CMS como WordPress y Magento.</li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </div>
-</main>
+    </section>
 
+    <!-- Habilidades -->
+    <section class="skills">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="content">
+            <ul>
+                <li>HTML, CSS, JavaScript, PHP, React, Angular</li>
+                <li>Desarrollo de aplicaciones web y móviles</li>
+                <li>Gestión de bases de datos (MySQL, MongoDB)</li>
+                <li>Uso de herramientas de control de versiones (Git, GitHub)</li>
+                <li>Metodologías ágiles (Scrum, Kanban)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Información de contacto -->
+    <section class="contact-info">
+        <h2 class="section-title">Contacto</h2>
+        <div class="content">
+            <p><strong>Teléfono:</strong> 1104964034</p>
+            <p><strong>Email:</strong> <a href="mailto:elder.solano@email.com">elder.solano@email.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eldersolano" target="_blank">linkedin.com/in/eldersolano</a></p>
+        </div>
+    </section>
+</div>
 
 </body>
 </html>
